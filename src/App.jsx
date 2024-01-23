@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import AddTaskForm from "./components/AddTaskForm";
 import TaskList from "./components/TaskList";
+import Footer from "./components/Footer";
 import { MdDarkMode, MdSunny } from "react-icons/md";
 
 function App() {
@@ -105,8 +106,11 @@ function App() {
               <p className=" text-gray-500 text-center z-10">Tâches vides</p>
             </div>
           )}
+          
+          
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
