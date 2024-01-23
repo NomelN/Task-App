@@ -11,10 +11,10 @@ const Footer = () => {
             
           </div>
         <div className=" flex items-center md:items-start  justify-center  flex-col gap-3 space-y-2">
-          <h2 className=" text-xl font-medium"> Subscribe</h2>
+          <h2 className=" text-xl font-medium"> S'abonner</h2>
           <div className=" flex flex-row justify-center md:justify-start gap-2 w-full">
             <input
-              placeholder="Your email "
+              placeholder="Votre email "
               className=" w-[70%] p-1 px-2 text-black"
               type="email"
             />
@@ -22,10 +22,13 @@ const Footer = () => {
               <BsSendFill />
             </button>
           </div>
+          <div>
+          @copyright Mickaël NOMEL akpanomel@gmail.com
+        </div>
         </div>
         <div className=" flex items-center md:items-start  flex-col gap-3">
           <div className=" space-y-2">
-            <h2 className=" text-xl font-medium"> Socials</h2>
+            <h2 className=" text-xl font-medium"> Réseaux sociaux</h2>
             <div className=" flex items-center gap-3">
               <AiFillFacebook size={24} />
               <p>Facebook</p>
@@ -39,7 +42,9 @@ const Footer = () => {
               <p>Instagram</p>
             </div>
           </div>
+          
         </div>
+        
       </div>
     </div>
   );
